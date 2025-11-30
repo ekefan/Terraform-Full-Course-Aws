@@ -1,42 +1,4 @@
-# ==============================================================================
-
-# EC2 Instance - Demonstrating all type constraints
-resource "aws_instance" "web_server" {
-  # String type: AMI ID and instance type
-  ami           = "ami-0e8459476fed2e23b"
-  instance_type = var.instance_type
-  
-  # Number type: Instance count
-  count = var.instance_count
-  
-  # Bool type: Enable monitoring and public IP
-  monitoring                  = var.enable_monitoring
-  associate_public_ip_address = var.associate_public_ip
-  
-  # Set type: Availability zone (using first element from set)
-  availability_zone = tolist(var.availability_zones)[0]  # Need to convert to list to access the indices
-  
-  # List type: Security group
-  vpc_security_group_ids = [aws_security_group.web_sg.id]
-  
-  # Object type: Using server config object attributes
-  # Note: This demonstrates object access syntax
-  # instance_type could also be: var.server_config.instance_type
-  # monitoring could also be: var.server_config.monitoring
-  
-  # Map type: Tags
-  tags = var.instance_tags
-  
-  # Root block device using number type
-  root_block_device {
-    volume_size = var.storage_size
-    volume_type = "gp3"
-  }
-}
-
-# Security Group for EC2
 resource "aws_security_group" "web_sg" {
-  # String type: Name and description
   name        = "${var.server_config.name}-sg"  # Object type usage
   description = "Security group for web server"
   
@@ -48,12 +10,11 @@ resource "aws_security_group" "web_sg" {
     cidr_blocks = var.allowed_cidr_blocks  # List type
   }
   
-  # SSH access  
   ingress {
-    from_port   = 22
-    to_port     = 22
-    protocol    = "tcp"
-    cidr_blocks = var.allowed_cidr_blocks  # List type
+    from_port   = var.ingress_values[0]
+    protocol    = var.inggress_values[1]
+    to_port     = var.ingress_values[2]
+    cidr_blocks = var.allowed_cidr_blocks
   }
   
   # Outbound traffic
@@ -69,3 +30,59 @@ resource "aws_security_group" "web_sg" {
 }
 
 
+resource "aws_s3_bucket" "tf_test_baivab_bucket" {
+  bucket = "${var.environment}-unique-bucket-001"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = var.environment
+  }
+}
+
+resource "aws_instance" "demo_instances" {
+  count         = var.instance_count
+  ami           = "ami-0e8459476fed2e23b"
+  monitoring                  = var.enable_monitoring
+  associate_public_ip_address = var.associate_public_ip
+}
+resource "aws_instance" "task_9" {
+  count         = var.config.instance_count
+  region = var.config.region
+  monitoring = var.config.region
+  ami           = "ami-0e8459476fed2e23b"
+  associate_public_ip_address = var.associate_public_ip
+
+  lifecycle {
+  precondition {
+    condition     = contains(var.allowed_vm_types, var.instance_type)
+    error_message = "Instance type '${var.instance_type}' is NOT allowed."
+  }
+  }
+
+  tags = {
+    Name = "validated-instance"
+  }
+}
+resource "aws_vpc" "demo_vpc" {
+  cidr_block = var.allowed_cidr_blocks[0]
+
+  tags = var.instance_tags
+}
+
+resource "aws_subnet" "subnet_1" {
+  vpc_id     = aws_vpc.demo_vpc.id
+  cidr_block = var.allowed_cidr_blocks[1]
+
+  tags = {
+    Name = "demo-subnet-1"
+  }
+}
+
+resource "aws_subnet" "subnet_2" {
+  vpc_id     = aws_vpc.demo_vpc.id
+  cidr_block = var.allowed_cidr_blocks[2]
+
+  tags = {
+    Name = "demo-subnet-2"
+  }
+}

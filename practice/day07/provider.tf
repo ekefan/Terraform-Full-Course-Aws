@@ -2,17 +2,38 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 6.0"
-    }
-    random = {
-      source  = "hashicorp/random"
-      version = "~> 3.1"
+      version = "6.16.0"
     }
   }
-  required_version = ">= 1.0"
 }
 
+# provider "aws" {
+#   region = contains(var.allowed_region, var.region)
+
+#   default_tags {
+#     tags = {
+#       Project     = "Terraform-Full-Course-AWS"
+#       Day         = "07"
+#       Topic       = "Type-Constraints"
+#       ManagedBy   = "Terraform"
+#       Environment = var.environment
+#     }
+#   }
+# }
+
+
+
 provider "aws" {
-  region = "eu-west-2" # Simple hardcoded region for demo
-  profile = "friction-eben-cli"
+  region = var.config.region
+  profile = var.credential_profile
+
+  default_tags {
+    tags = {
+      Project     = "Terraform-Full-Course-AWS"
+      Day         = "07"
+      Topic       = "Type-Constraints"
+      ManagedBy   = "Terraform"
+      Environment = var.environment
+    }
+  }
 }
