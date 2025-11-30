@@ -6,9 +6,9 @@
 **Personal Practice Repo:** https://github.com/medashabari/terraform-aws-complete/tree/main/day1
 
 ## Progress Overview
-- **Days Completed:** 1/30
+- **Days Completed:** 3/30
 - **Current Streak:** 1 day
-- **Last Submission:** 2025-11-25
+- **Last Submission:** 2025-11-30
 
 ---
 
@@ -35,6 +35,50 @@ What I learned today:
  • Creating the first Terraform configuration block (provider block)
 
 <img width=3475 height=326 alt=Image src=https://github.com/user-attachments/assets/6c486204-6b60-4d93-a92c-88587b9318fc />
+
+---
+
+## Day 2: Understanding Providers
+**Date:** 2025-11-26  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 2 - Understanding Providers](https://medium.com/@shabarimeda/understanding-terraform-providers-the-bridge-between-your-code-and-the-cloud-8c741ec185a7)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/shabarish-meda_30daysofawsterraform-terraform-cloudcomputing-share-7399317609697030145-ojJm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3PQ5gBrzRUsYrFvDAHTj93UBwyIwLTeYs)
+- **Code Repository:** [GitHub](https://github.com/medashabari/terraform-aws-complete/tree/main/day2)
+- **Issue:** [#91](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/91)
+
+### 🎯 Key Learnings
+
+- What providers are and why they matter
+- The difference between Terraform core and provider versions
+- Why versioning is critical for stability, security, and reproducibility
+
+---
+
+## Day 4: S3 Remote backend
+**Date:** 2025-11-30  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 4 - S3 Remote backend](https://medium.com/@shabarimeda/terraform-state-file-management-remote-backend-s3-native-locking-add2bbed58fc)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/shabarish-meda_terraform-state-file-management-remote-share-7400900173129949184-SDyQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3PQ5gBrzRUsYrFvDAHTj93UBwyIwLTeYs)
+- **Code Repository:** [GitHub](https://github.com/medashabari/terraform-aws-complete/tree/main/day4)
+- **Issue:** [#278](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/278)
+
+### 🎯 Key Learnings
+
+ What the Terraform state file actually contains
+• Why you should never edit the state file manually
+• Best practices for securing and organizing state
+• Setting up a remote backend using AWS S3
+• Terraform 1.10+ now supports native S3 state locking (no DynamoDB needed!)
+• How state locking prevents conflicts in collaborative/team environments
+• Testing lock behavior by running concurrent Terraform operations
 
 ---
 
