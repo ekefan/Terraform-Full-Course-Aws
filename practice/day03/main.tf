@@ -22,9 +22,10 @@ resource "aws_vpc" "demo_vpc" {
 resource "aws_s3_bucket" "demo_bucket" {
   bucket        = "awsterraformpractice-00998877"
   force_destroy = true
-
+  
   tags = {
     Name        = "demo-bucket"
     Environment = "Dev"
+    VpcId       = aws_vpc.demo_vpc.id   
   }
 }
