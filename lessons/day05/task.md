@@ -2,13 +2,13 @@
 
 ## What to Do
 
-- [ ] Watch the Day 05 video and take notes
-- [ ] Write a short blog (500-800 words) about what you learned
+- [x] Watch the Day 05 video and take notes
+- [x] Write a short blog (500-800 words) about what you learned
   - Include your own diagrams and code examples
   - Embed the video
-- [ ] Share your blog on LinkedIn and Twitter/X with **#30daysofawsterraform**
-- [ ] Tag me (Piyush Sachdeva)
-- [ ] Submit your work (see `submission.md` for how)
+- [x] Share your blog on LinkedIn and Twitter/X with **#30daysofawsterraform**
+- [x] Tag me (Piyush Sachdeva)
+- [x] Submit your work (see `submission.md` for how)
 
 ## Tips
 
