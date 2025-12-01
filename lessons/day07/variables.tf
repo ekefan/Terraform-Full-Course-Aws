@@ -119,4 +119,3 @@ variable "server_config" {
     # - Access: var.server_config.name, var.server_config.monitoring
     # - All attributes must be provided (unless optional)
 }
-
