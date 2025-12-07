@@ -7,14 +7,14 @@
 # - Otherwise, use t2.micro
 # ==============================================================================
 
-resource "aws_instance" "conditional_example" {
-  ami           = data.aws_ami.amazon_linux.id
-  instance_type = var.environment == "prod" ? "t3.large" : "t2.micro"
+# resource "aws_instance" "conditional_example" {
+#   ami           = data.aws_ami.amazon_linux.id
+#   instance_type = var.environment == "prod" ? "t3.large" : "t2.micro"
 
-  tags = {
-    Name = "conditional-instance-${var.environment}"
-  }
-}
+#   tags = {
+#     Name = "conditional-instance-${var.environment}"
+#   }
+# }
 
 # ==============================================================================
 # EXAMPLE 2: DYNAMIC BLOCKS
