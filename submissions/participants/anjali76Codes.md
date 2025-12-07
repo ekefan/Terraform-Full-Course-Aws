@@ -6,9 +6,9 @@
 **Personal Practice Repo:** https://github.com/anjali76Codes/Terraform-Full-Course-Aws
 
 ## Progress Overview
-- **Days Completed:** 2/30
+- **Days Completed:** 6/30
 - **Current Streak:** 1 day
-- **Last Submission:** 2025-11-27
+- **Last Submission:** 2025-11-30
 
 ---
 
@@ -48,6 +48,82 @@ I learned how the AWS provider connects Terraform with AWS and why it's needed b
 I figured out how the provider configuration and authentication work together.
 I also got a clear idea of how Terraform manages AWS resources through the provider plugin.
 Plus I went through some basic Terraform commands that help in planning and applying changes.
+
+---
+
+## Day 6: Terraform Project Structure
+**Date:** 2025-11-29  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 6 - Terraform Project Structure](https://terraformlacwithawschallenge.hashnode.dev/day06-terraform-project-structure)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/feed/update/urn:li:activity:7400561120085938176/)
+- **Code Repository:** [GitHub](https://github.com/anjali76Codes/Terraform-Full-Course-Aws/tree/main)
+- **Issue:** [#249](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/249)
+
+### 🎯 Key Learnings
+
+Today I learned how to split my Terraform setup into a proper multi-file structure instead of keeping everything in one place.
+I set up files for variables, locals, providers, backend and outputs so the project stays clean and easier to manage.
+I also added tfvars, gitignore and example files to follow a safe workflow that works well for bigger setups.
+
+---
+
+## Day 5: Terraform Variables & Precedence
+**Date:** 2025-11-28  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 5 - Terraform Variables & Precedence](https://terraformlacwithawschallenge.hashnode.dev/day05-terraform-variables)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/feed/update/urn:li:activity:7400221837105963008/)
+- **Code Repository:** [GitHub](https://github.com/anjali76Codes/Terraform-Full-Course-Aws/blob/main/lessons/day03/Notes.md)
+- **Issue:** [#218](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/218)
+
+### 🎯 Key Learnings
+
+Terraform variables help avoid repetition and keep environments consistent across resources. Input variables control values from outside, locals help build clean naming patterns, and outputs return important IDs after apply. Understanding when to use each type makes the configuration easier to maintain and reduces errors. This keeps the setup flexible as the project grows.
+
+---
+
+## Day 3: Create S3 Bucket
+**Date:** 2025-11-26  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 3 - Create S3 Bucket](https://hashnode.com/draft/6924a85bfdaa66425ba84f15)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/feed/update/urn:li:activity:7399480279884763136/)
+- **Code Repository:** [GitHub](https://github.com/anjali76Codes/Terraform-Full-Course-Aws/blob/main/lessons/day03/Notes.md)
+- **Issue:** [#114](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/114)
+
+### 🎯 Key Learnings
+
+I learned how to create an S3 bucket using Terraform and how a resource block is structured.
+I now understand why bucket names must be globally unique and how tags help with organization.
+I also got comfortable with the full Terraform workflow from init to plan, apply and destroy.
+Working through this made the state file and update behavior much clearer.
+
+---
+
+## Day 7: Terraform Type Constraints
+**Date:** 2025-11-30  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 7 - Terraform Type Constraints](https://terraformlacwithawschallenge.hashnode.dev/day7-terraform-type-constraints)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/feed/update/urn:li:activity:7400934350097358848/)
+- **Code Repository:** [GitHub](https://github.com/anjali76Codes/Terraform-Full-Course-Aws/tree/main)
+- **Issue:** [#283](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/283)
+
+### 🎯 Key Learnings
+
 
 ---
 

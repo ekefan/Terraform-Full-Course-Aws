@@ -6,9 +6,9 @@
 **Personal Practice Repo:** https://github.com/Gokulprasath-N/Terraform-Full-Course-Aws/tree/main/lessons/day01
 
 ## Progress Overview
-- **Days Completed:** 2/30
+- **Days Completed:** 6/30
 - **Current Streak:** 1 day
-- **Last Submission:** 2025-11-26
+- **Last Submission:** 2025-11-27
 
 ---
 
@@ -77,6 +77,74 @@ Destroying: To remove the resource, run terraform destroy.
 This will delete the bucket from AWS.
 
 Like apply, it requires a confirmation prompt (or -auto-approve).
+
+---
+
+## Day 2: AWS Provider 
+**Date:** 2025-11-25  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 2 - AWS Provider ](https://medium.com/@gokulkumargn/day-2-30-mastering-terraform-providers-version-constraints-%EF%B8%8F-06c2794ebc62?postPublishedType=initial)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/gokulprasath-n_30daysofawsterraform-aws-terraform-activity-7399094170549682177-5wJw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpuYVMBDniXo9yNNR3dTMoe7XPh7tZCvYI)
+- **Code Repository:** [GitHub](https://github.com/Gokulprasath-N/Terraform-Full-Course-Aws/tree/main/lessons/day02)
+- **Issue:** [#65](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/65)
+
+### 🎯 Key Learnings
+
+
+---
+
+## Day 7: Type Constraints
+**Date:** 2025-11-30  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 7 - Type Constraints](https://medium.com/@gokulkumargn/day-7-30-mastering-terraform-variable-types-constraints-%EF%B8%8F-641338b97718?postPublishedType=initial)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/gokulprasath-n_day-730-mastering-terraform-variable-types-activity-7400960272246636544-YEoj?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpuYVMBDniXo9yNNR3dTMoe7XPh7tZCvYI)
+- **Code Repository:** [GitHub](https://github.com/Gokulprasath-N/Terraform-Full-Course-Aws/tree/main/lessons/day07/my%20task)
+- **Issue:** [#290](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/290)
+
+### 🎯 Key Learnings
+
+
+---
+
+## Day 5: Terraform Variables
+**Date:** 2025-11-29  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 5 - Terraform Variables](https://dev.to/gokulprasath_n_42438fd633/day-530-the-power-of-variables-dry-principles-precedence-50ph)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/gokulprasath-n_day-530-the-power-of-variables-dry-principles-activity-7400209259155611648-bz51?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpuYVMBDniXo9yNNR3dTMoe7XPh7tZCvYI)
+- **Code Repository:** [GitHub](_Noresponse_)
+- **Issue:** [#229](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/229)
+
+### 🎯 Key Learnings
+
+
+---
+
+## Day 4: Terraform State file management
+**Date:** 2025-11-27  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 4 - Terraform State file management](https://medium.com/@gokulkumargn/day-4-30-the-heart-of-terraform-state-files-remote-backends-%EF%B8%8F-2842360d7085)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/gokulprasath-n_30daysofawsterraform-aws-terraform-activity-7399879505785503745-Jabh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpuYVMBDniXo9yNNR3dTMoe7XPh7tZCvYI)
+- **Code Repository:** [GitHub](https://github.com/Gokulprasath-N/Terraform-Full-Course-Aws/tree/main/lessons/day04)
+- **Issue:** [#184](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/184)
+
+### 🎯 Key Learnings
+
 
 ---
 

@@ -6,9 +6,9 @@
 **Personal Practice Repo:** https://github.com/Mo-Adnan-Mo-Ayyub/Aws-with-Terraform
 
 ## Progress Overview
-- **Days Completed:** 4/30
-- **Current Streak:** 4 days
-- **Last Submission:** 2025-11-27
+- **Days Completed:** 7/30
+- **Current Streak:** 7 days
+- **Last Submission:** 2025-11-30
 
 ---
 
@@ -91,6 +91,67 @@
 ### 🎯 Key Learnings
 
 - Today's session dove deep into a concept that's absolutely crucial for anyone working with Terraform, especially in team environments: the Terraform State File and how to manage it effectively using remote backends.
+
+---
+
+## Day 5: Terraform Variables in AWS
+**Date:** 2025-11-28  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 5 - Terraform Variables in AWS](https://adnandevops.blogspot.com/2025/11/aws-with-terraform-day-05.html)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/mohammad-adnan-m_aws-with-terraform-day-05-activity-7400159444229197824-1YTd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJTUhEBPnFLRxXGbxJoYkEJyPfNMXNQVvI)
+- **Code Repository:** [GitHub](https://github.com/Mo-Adnan-Mo-Ayyub/Aws-with-Terraform)
+- **Issue:** [#203](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/203)
+
+### 🎯 Key Learnings
+
+Terraform variable precedence priorities
+- default
+- tfvars
+- environment variables
+- -var flag (highest priority)
+
+---
+
+## Day 6: AWS Terraform Project Structure Best Practices
+**Date:** 2025-11-29  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 6 - AWS Terraform Project Structure Best Practices](https://adnandevops.blogspot.com/2025/11/aws-with-terraform-day-06.html)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/mohammad-adnan-m_aws-with-terraform-day-06-activity-7400521043305545728-RA3s?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJTUhEBPnFLRxXGbxJoYkEJyPfNMXNQVvI)
+- **Code Repository:** [GitHub](https://github.com/Mo-Adnan-Mo-Ayyub/Aws-with-Terraform)
+- **Issue:** [#240](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/240)
+
+### 🎯 Key Learnings
+
+- I finally understood why structuring Terraform files properly matters more than people think.
+- Resource-specific files keep infra clean.
+- .gitignore file is essential to protect state, logs, and sensitive files from Git
+
+---
+
+## Day 7: AWS Terraform Type Constraints
+**Date:** 2025-11-30  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 7 - AWS Terraform Type Constraints](https://adnandevops.blogspot.com/2025/11/aws-with-terraform-day-07.html)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/mohammad-adnan-m_aws-with-terraform-day-07-activity-7400941896153432064-f3CF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJTUhEBPnFLRxXGbxJoYkEJyPfNMXNQVvI)
+- **Code Repository:** [GitHub](https://github.com/Mo-Adnan-Mo-Ayyub/Aws-with-Terraform)
+- **Issue:** [#285](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/285)
+
+### 🎯 Key Learnings
+
+- I finally understand why types are the backbone of predictable, scalable Infrastructure as Code. 
+- Today’s deep dive covers primitives, collections, structural types, and a runnable hands-on example.
 
 ---
 

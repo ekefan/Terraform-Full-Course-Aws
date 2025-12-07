@@ -6,8 +6,8 @@
 **Personal Practice Repo:** https://github.com/TanseerS/Terraform-AWS/tree/main/Day-1
 
 ## Progress Overview
-- **Days Completed:** 3/30
-- **Current Streak:** 2 days
+- **Days Completed:** 6/30
+- **Current Streak:** 1 day
 - **Last Submission:** 2025-11-27
 
 ---
@@ -89,6 +89,89 @@ Day - 4 :
 <img width=1085 height=473 alt=Image src=https://github.com/user-attachments/assets/6398376f-8ede-47ff-a543-ecdeb71c7bb3 />
 
 <img width=1440 height=900 alt=Image src=https://github.com/user-attachments/assets/e681a81f-e5c0-4993-bbd5-19c56b245093 />
+
+---
+
+## Day 5: DataTypes and Variables in Terraform
+**Date:** 2025-11-28  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 5 - DataTypes and Variables in Terraform](https://terraform-and-aws.hashnode.dev/learn-terraform-variables-a-simple-explanation)
+
+### 🔗 Links
+- **Social Media:** [Post](https://x.com/KhanTanseer2/status/1994357133387747508?s=20)
+- **Code Repository:** [GitHub](https://github.com/TanseerS/Terraform-AWS/tree/main/Day-5)
+- **Issue:** [#199](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/199)
+
+### 🎯 Key Learnings
+
+Topics Covered:
+
+- Terraform variables and locals
+- Data types like string, list, and map
+- Output variables
+- Using TF_VAR_environment
+- Understanding variable precedence
+
+<img width=1440 height=900 alt=Image src=https://github.com/user-attachments/assets/bae38875-fa39-4214-93be-89bc9ac9a968 />
+
+<img width=1018 height=516 alt=Image src=https://github.com/user-attachments/assets/98aeaf8a-c745-4e76-9cf8-8643bdf5aef4 />
+
+<img width=1055 height=510 alt=Image src=https://github.com/user-attachments/assets/bfd76760-8f85-418e-9a47-ba77cfe466ce />
+
+---
+
+## Day 6: Terraform folder structure
+**Date:** 2025-11-30  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 6 - Terraform folder structure](https://terraform-and-aws.hashnode.dev/a-clear-guide-to-organizing-terraform-code-the-right-way)
+
+### 🔗 Links
+- **Social Media:** [Post](https://x.com/KhanTanseer2/status/1995004675717042360?s=20)
+- **Code Repository:** [GitHub](https://github.com/TanseerS/Terraform-AWS/tree/main/Day-6)
+- **Issue:** [#262](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/262)
+
+### 🎯 Key Learnings
+
+Topics Covered:
+- How Terraform loads files
+- How to organize configs cleanly
+- Best practices for naming and grouping
+- Environment and service based layouts
+- Refactored older configs into a clean structure
+
+<img width=1440 height=900 alt=Image src=https://github.com/user-attachments/assets/539fd86e-5d68-4e31-b6de-61ec3329a4d9 />
+
+<img width=1202 height=504 alt=Image src=https://github.com/user-attachments/assets/aa84369c-5baf-4b94-8c70-b76cbc9d35da />
+
+---
+
+## Day 3: S3 Bucket creation using terraform
+**Date:** 2025-11-27  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 3 - S3 Bucket creation using terraform](https://terraform-and-aws.hashnode.dev/creating-an-s3-bucket-using-terraform)
+
+### 🔗 Links
+- **Social Media:** [Post](https://x.com/KhanTanseer2/status/1993931502967771196?s=20)
+- **Code Repository:** [GitHub](https://github.com/TanseerS/Terraform-AWS/tree/main/Day-3)
+- **Issue:** [#144](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/144)
+
+### 🎯 Key Learnings
+
+Covered:
+
+- How S3 buckets work
+- Why Terraform makes bucket creation easier
+- Step by step resource creation
+- Real world use cases
+
+<img width=1440 height=900 alt=Image src=https://github.com/user-attachments/assets/7eeef905-3f9b-48a8-be47-32396130fbd6 />
+<img width=988 height=403 alt=Image src=https://github.com/user-attachments/assets/c43fe04f-67dd-441e-b48e-fbf2f81df6ba />
 
 ---
 

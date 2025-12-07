@@ -6,9 +6,9 @@
 **Personal Practice Repo:** n/a
 
 ## Progress Overview
-- **Days Completed:** 2/30
-- **Current Streak:** 2 days
-- **Last Submission:** 2025-11-25
+- **Days Completed:** 6/30
+- **Current Streak:** 1 day
+- **Last Submission:** 2025-11-29
 
 ---
 
@@ -58,6 +58,81 @@
 - iam creation for specific use cases
 - terraform init, plan
 - State file creation
+
+---
+
+## Day 5: Terraform Variables
+**Date:** 2025-11-28  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 5 - Terraform Variables](https://amals27.hashnode.dev/variables-in-terraform)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/amal-s27_30daysofawsterraform-activity-7400197469457977344-iGNK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADITuXYB_z6HwgAdORpOS6vf6yoneZlgQFQ)
+- **Code Repository:** [GitHub](n/a)
+- **Issue:** [#211](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/211)
+
+### 🎯 Key Learnings
+
+- Terraform variables
+
+---
+
+## Day 3: AWS S3 Bucket creation using Terraform
+**Date:** 2025-11-26  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 3 - AWS S3 Bucket creation using Terraform](https://amals27.hashnode.dev/aws-s3-bucket-creation-using-terraform)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/amal-s27_30daysofawsterraform-activity-7399485428929835009-2-WW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADITuXYB_z6HwgAdORpOS6vf6yoneZlgQFQ)
+- **Code Repository:** [GitHub](git@github.com:kutt27/terraform-30-days.git)
+- **Issue:** [#117](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/117)
+
+### 🎯 Key Learnings
+
+- Terraform naming
+- Writing a simple Terraform file
+- Practical deep down into: terraform init, plan, apply and destroy
+- Managing naming conflict on an AWS bucket: AWS bucket names must be unique across all AWS accounts in all regions within a partition
+
+---
+
+## Day 4: Terraform State file management with AWS S3
+**Date:** 2025-11-27  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 4 - Terraform State file management with AWS S3](https://amals27.hashnode.dev/terraform-state-management)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/amal-s27_30daysofawsterraform-activity-7399843327233404928-WPbE?utm_source=share&utm_medium=member_desktop&rcm=ACoAADITuXYB_z6HwgAdORpOS6vf6yoneZlgQFQ)
+- **Code Repository:** [GitHub](https://github.com/kutt27/terraform-30-days)
+- **Issue:** [#174](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/174)
+
+### 🎯 Key Learnings
+
+- state file management
+- state file protection
+
+---
+
+## Day 6: Terraform Project Structure
+**Date:** 2025-11-29  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 6 - Terraform Project Structure](https://amals27.hashnode.dev/terraform-project-structure)
+
+### 🔗 Links
+- **Social Media:** [Post](https://www.linkedin.com/posts/amal-s27_30daysofawsterraform-activity-7400576243202719745-9f7A?utm_source=share&utm_medium=member_desktop&rcm=ACoAADITuXYB_z6HwgAdORpOS6vf6yoneZlgQFQ)
+- **Code Repository:** [GitHub](https://github.com/kutt27/terraform-30-days/tree/main/06-Terraform-Project-Structure)
+- **Issue:** [#250](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/250)
+
+### 🎯 Key Learnings
+
 
 ---
 

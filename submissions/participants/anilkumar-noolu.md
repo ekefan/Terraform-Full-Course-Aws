@@ -6,9 +6,9 @@
 **Personal Practice Repo:** https://github.com/anilkumar-noolu/Terraform-Full-Course-Aws
 
 ## Progress Overview
-- **Days Completed:** 3/30
-- **Current Streak:** 3 days
-- **Last Submission:** 2025-11-26
+- **Days Completed:** 6/30
+- **Current Streak:** 2 days
+- **Last Submission:** 2025-11-27
 
 ---
 
@@ -76,6 +76,60 @@ What is the process to authenticate and authorize into AWS Cloud and create reso
 Today I learned on creating S3 Buckets using terraform.
 Authenticating and Authorizing for AWS Account.
 S3 bucket management.
+
+---
+
+## Day 5: Terraform Variables in AWS
+**Date:** 2025-11-28  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 5 - Terraform Variables in AWS](https://dev.to/anil_kumar_noolu/terraform-variables-in-aws-4ppg)
+
+### 🔗 Links
+- **Social Media:** [Post](https://x.com/anilkumarr17147/status/1994447044677697687?t=bfI4IfUw30DLr3fTpVSH3g&s=19)
+- **Code Repository:** [GitHub](https://github.com/anilkumar-noolu/Terraform-Full-Course-Aws)
+- **Issue:** [#216](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/216)
+
+### 🎯 Key Learnings
+
+Today I learned about variables in Terraform, variable types and their precedence
+
+---
+
+## Day 6: Terraform project Structure Best practices
+**Date:** 2025-11-29  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 6 - Terraform project Structure Best practices](https://dev.to/anil_kumar_noolu/terraform-project-structure-best-practices-3cob)
+
+### 🔗 Links
+- **Social Media:** [Post](https://x.com/anilkumarr17147/status/1994723620753739989?t=CuxzYDqX4wi9hE1M9RtKsg&s=19)
+- **Code Repository:** [GitHub](https://github.com/anilkumar-noolu/Terraform-Full-Course-Aws)
+- **Issue:** [#237](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/237)
+
+### 🎯 Key Learnings
+
+Today I learned about Terraform project Structure Best practices, how to organize and split terraform code to multiple .tf files and keep them logically organized.
+
+---
+
+## Day 4: Terraform State File Management and Remote Backend
+**Date:** 2025-11-27  
+**Status:** ✅ Completed
+
+### 📝 Blog Post
+[Day 4 - Terraform State File Management and Remote Backend](https://dev.to/anil_kumar_noolu/terraform-state-file-management-23l3)
+
+### 🔗 Links
+- **Social Media:** [Post](https://x.com/anilkumarr17147/status/1994068774774063405?t=zHXXo0PqQoHE98nl5TKWQg&s=19)
+- **Code Repository:** [GitHub](https://github.com/anilkumar-noolu/Terraform-Full-Course-Aws)
+- **Issue:** [#170](https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/issues/170)
+
+### 🎯 Key Learnings
+
+Today I learned about Terraform State File Management and how Remote Backend is operated and what are its benefits and how important is StateFile and Remote Backend.
 
 ---
 
